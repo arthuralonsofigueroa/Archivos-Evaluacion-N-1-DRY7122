@@ -1,0 +1,64 @@
+{
+  "hostname": "",
+  "interfaces": [
+    {
+      "name": "",
+      "description": "",
+      "ip_address": "",
+      "subnet_mask": "",
+      "status": "",
+      "protocol": "",
+      "bandwidth": "",
+      "mtu": "",
+      "duplex": "",
+      "speed": "",
+      "access_vlan": "",
+      "allowed_vlans": [],
+      "native_vlan": "",
+      "shutdown": false
+    }
+  ],
+  "routing_table": [
+    {
+      "destination": "",
+      "subnet_mask": "",
+      "next_hop": "",
+      "interface": ""
+    }
+  ],
+  "ospf": {
+    "process_id": "",
+    "networks": [],
+    "neighbors": []
+  },
+  "bgp": {
+    "as_number": "",
+    "neighbors": [],
+    "networks": []
+  },
+  "ntp_servers": [],
+  "snmp_community": "",
+  "logging": {
+    "console": "",
+    "buffer": "",
+    "host": "",
+    "level": ""
+  },
+  "aaa": {
+    "authentication": "",
+    "authorization": "",
+    "accounting": ""
+  },
+  "security": {
+    "passwords": {
+      "enable_secret": "",
+      "console": "",
+      "vty": ""
+    },
+    "ssh": false,
+    "telnet": false,
+    "http": false
+  }
+}
+
+
